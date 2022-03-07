@@ -1,0 +1,16 @@
+2021-10-08	18:26:35	INFO	Splitting the data
+2021-10-08	18:26:36	INFO	Exception occured is:	'skewness' object has no attribute 'copy'
+2021-10-08	18:38:14	INFO	Splitting the data
+2021-10-08	18:38:17	INFO	Exception occured is:	'skewness' object has no attribute 'copy'
+2021-10-08	19:34:25	INFO	Splitting the data
+2021-10-08	19:34:27	INFO	splitting has been done
+2021-10-09	16:38:43	INFO	Splitting the data
+2021-10-09	16:38:45	INFO	splitting has been done
+2021-10-09	16:38:45	INFO	Splitting the data
+2021-10-09	16:38:46	INFO	splitting has been done
+2021-10-09	19:04:32	INFO	Splitting the data
+2021-10-09	19:04:34	INFO	splitting has been done
+2021-10-09	19:04:35	INFO	Splitting the data
+2021-10-09	19:04:36	INFO	splitting has been done
+2021-10-09	20:03:43	INFO	Splitting the data
+2021-10-09	20:03:44	INFO	splitting has been done

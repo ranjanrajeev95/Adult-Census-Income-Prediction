@@ -1,0 +1,22 @@
+2021-10-08	19:50:47	INFO	Enter get_best_model method in Model_finder_class 
+2021-10-08	19:50:47	INFO	Exception occured at getting best model method is:scaling() missing 1 required positional argument: 'self'
+2021-10-09	16:37:02	INFO	Enter get_best_model method in Model_finder_class 
+2021-10-09	16:37:02	INFO	Exception occured at get_best_model  is:scaling() missing 1 required positional argument: 'self'
+2021-10-09	16:38:43	INFO	Enter get_best_model method in Model_finder_class 
+2021-10-09	16:38:45	INFO	Entered into best_params for xg boost class
+2021-10-09	19:04:32	INFO	Enter get_best_model method in Model_finder_class 
+2021-10-09	19:04:34	INFO	Entered into best_params for xg boost class
+2021-10-09	20:03:37	INFO	Xg_boost modelling has started
+2021-10-09	20:03:41	INFO	Best xg_boost parameters are :{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 100}
+2021-10-09	20:03:41	INFO	XGboost modelling has been completed
+2021-10-09	20:03:43	INFO	Roc_Auc score is 0.7911323279910969
+2021-10-09	20:03:43	INFO	Entered into best_params_class for random_forest classifier
+2021-10-09	20:44:56	INFO	Grid_Search cv is performed 
+2021-10-09	20:44:56	INFO	Random forest modelling fitting has started
+2021-10-09	20:45:14	INFO	Best random forest parameters are {'criterion': 'gini', 'max_depth': 890, 'max_features': 'auto', 'min_samples_leaf': 4, 'min_samples_split': 4, 'n_estimators': 1000}
+2021-10-09	20:45:14	INFO	Random Forest Modelling completed
+2021-10-09	20:45:16	INFO	Auc and Roc score of Random forest is 0.7822338594059055
+2021-10-09	20:45:16	INFO	Selection of best model 
+2021-10-09	20:45:16	INFO	Best model selection is done
+2021-10-09	20:45:16	INFO	Saving model as pickle file
+2021-10-09	20:45:16	INFO	Best model saved in file ,Best model is:xgboost

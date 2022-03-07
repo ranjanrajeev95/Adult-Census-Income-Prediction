@@ -1,0 +1,96 @@
+2021-10-07	12:56:46	INFO	Removing Duplicates from Dataframe
+2021-10-07	12:56:46	INFO	Finding features with missing values
+2021-10-07	12:56:48	INFO	The missing numerical features are: []
+2021-10-07	12:56:48	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-07	12:56:48	INFO	Missing values imputaion is done
+2021-10-07	12:56:49	INFO	Duplicate values have been dropped
+2021-10-07	13:03:25	INFO	Removing Duplicates from Dataframe
+2021-10-07	13:03:25	INFO	Finding features with missing values
+2021-10-07	13:03:26	INFO	The missing numerical features are: []
+2021-10-07	13:03:26	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-07	13:03:26	INFO	Missing values imputaion is done
+2021-10-07	13:03:26	INFO	Duplicate values have been dropped
+2021-10-07	13:08:51	INFO	Removing Duplicates from Dataframe
+2021-10-07	13:08:51	INFO	Finding features with missing values
+2021-10-07	13:08:52	INFO	The missing numerical features are: []
+2021-10-07	13:08:52	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-07	13:08:52	INFO	Missing values imputaion is done
+2021-10-07	13:08:52	INFO	Duplicate values have been dropped
+2021-10-08	17:47:45	INFO	Removing Duplicates from Dataframe
+2021-10-08	17:47:45	INFO	Finding features with missing values
+2021-10-08	17:47:47	INFO	The missing numerical features are: []
+2021-10-08	17:47:47	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-08	17:47:47	INFO	Missing values imputaion is done
+2021-10-08	17:47:48	INFO	Duplicate values have been dropped
+2021-10-08	17:52:40	INFO	Removing Duplicates from Dataframe
+2021-10-08	17:52:40	INFO	Finding features with missing values
+2021-10-08	17:52:42	INFO	The missing numerical features are: []
+2021-10-08	17:52:42	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-08	17:52:42	INFO	Missing values imputaion is done
+2021-10-08	17:52:42	INFO	Duplicate values have been dropped
+2021-10-08	18:26:17	INFO	Removing Duplicates from Dataframe
+2021-10-08	18:26:17	INFO	Finding features with missing values
+2021-10-08	18:26:19	INFO	The missing numerical features are: []
+2021-10-08	18:26:19	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-08	18:26:19	INFO	Missing values imputaion is done
+2021-10-08	18:26:19	INFO	Duplicate values have been dropped
+2021-10-08	18:26:35	INFO	Removing Duplicates from Dataframe
+2021-10-08	18:26:35	INFO	Finding features with missing values
+2021-10-08	18:26:35	INFO	The missing numerical features are: []
+2021-10-08	18:26:35	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-08	18:26:35	INFO	Missing values imputaion is done
+2021-10-08	18:26:36	INFO	Duplicate values have been dropped
+2021-10-08	18:37:56	INFO	Removing Duplicates from Dataframe
+2021-10-08	18:37:56	INFO	Finding features with missing values
+2021-10-08	18:37:57	INFO	The missing numerical features are: []
+2021-10-08	18:37:57	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-08	18:37:57	INFO	Missing values imputaion is done
+2021-10-08	18:37:57	INFO	Duplicate values have been dropped
+2021-10-08	18:38:14	INFO	Removing Duplicates from Dataframe
+2021-10-08	18:38:14	INFO	Finding features with missing values
+2021-10-08	18:38:16	INFO	The missing numerical features are: []
+2021-10-08	18:38:16	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-08	18:38:16	INFO	Missing values imputaion is done
+2021-10-08	18:38:16	INFO	Duplicate values have been dropped
+2021-10-08	19:34:05	INFO	Removing Duplicates from Dataframe
+2021-10-08	19:34:05	INFO	Finding features with missing values
+2021-10-08	19:34:06	INFO	The missing numerical features are: []
+2021-10-08	19:34:06	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-08	19:34:06	INFO	Missing values imputaion is done
+2021-10-08	19:34:06	INFO	Duplicate values have been dropped
+2021-10-08	19:34:25	INFO	Removing Duplicates from Dataframe
+2021-10-08	19:34:25	INFO	Finding features with missing values
+2021-10-08	19:34:27	INFO	The missing numerical features are: []
+2021-10-08	19:34:27	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-08	19:34:27	INFO	Missing values imputaion is done
+2021-10-08	19:34:27	INFO	Duplicate values have been dropped
+2021-10-09	16:38:43	INFO	Removing Duplicates from Dataframe
+2021-10-09	16:38:43	INFO	Finding features with missing values
+2021-10-09	16:38:44	INFO	The missing numerical features are: []
+2021-10-09	16:38:44	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-09	16:38:44	INFO	Missing values imputaion is done
+2021-10-09	16:38:44	INFO	Duplicate values have been dropped
+2021-10-09	16:38:45	INFO	Removing Duplicates from Dataframe
+2021-10-09	16:38:45	INFO	Finding features with missing values
+2021-10-09	16:38:45	INFO	The missing numerical features are: []
+2021-10-09	16:38:45	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-09	16:38:45	INFO	Missing values imputaion is done
+2021-10-09	16:38:45	INFO	Duplicate values have been dropped
+2021-10-09	19:04:32	INFO	Removing Duplicates from Dataframe
+2021-10-09	19:04:32	INFO	Finding features with missing values
+2021-10-09	19:04:34	INFO	The missing numerical features are: []
+2021-10-09	19:04:34	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-09	19:04:34	INFO	Missing values imputaion is done
+2021-10-09	19:04:34	INFO	Duplicate values have been dropped
+2021-10-09	19:04:35	INFO	Removing Duplicates from Dataframe
+2021-10-09	19:04:35	INFO	Finding features with missing values
+2021-10-09	19:04:35	INFO	The missing numerical features are: []
+2021-10-09	19:04:35	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-09	19:04:36	INFO	Missing values imputaion is done
+2021-10-09	19:04:36	INFO	Duplicate values have been dropped
+2021-10-09	20:03:43	INFO	Removing Duplicates from Dataframe
+2021-10-09	20:03:43	INFO	Finding features with missing values
+2021-10-09	20:03:44	INFO	The missing numerical features are: []
+2021-10-09	20:03:44	INFO	The missing categorical features are: ['workclass', 'occupation', 'country']
+2021-10-09	20:03:44	INFO	Missing values imputaion is done
+2021-10-09	20:03:44	INFO	Duplicate values have been dropped

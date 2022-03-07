@@ -1,0 +1,28 @@
+2021-10-08	18:38:14	INFO	Encoding categorical variables
+2021-10-08	18:38:16	INFO	Education variable encoded
+2021-10-08	18:38:16	INFO	Education-num variable dropped
+2021-10-08	18:38:16	INFO	Label encoding of variables is done
+2021-10-08	19:34:25	INFO	Encoding categorical variables
+2021-10-08	19:34:27	INFO	Education variable encoded
+2021-10-08	19:34:27	INFO	Education-num variable dropped
+2021-10-08	19:34:27	INFO	Label encoding of variables is done
+2021-10-09	16:38:43	INFO	Encoding categorical variables
+2021-10-09	16:38:44	INFO	Education variable encoded
+2021-10-09	16:38:44	INFO	Education-num variable dropped
+2021-10-09	16:38:45	INFO	Label encoding of variables is done
+2021-10-09	16:38:45	INFO	Encoding categorical variables
+2021-10-09	16:38:45	INFO	Education variable encoded
+2021-10-09	16:38:45	INFO	Education-num variable dropped
+2021-10-09	16:38:45	INFO	Label encoding of variables is done
+2021-10-09	19:04:32	INFO	Encoding categorical variables
+2021-10-09	19:04:34	INFO	Education variable encoded
+2021-10-09	19:04:34	INFO	Education-num variable dropped
+2021-10-09	19:04:34	INFO	Label encoding of variables is done
+2021-10-09	19:04:35	INFO	Encoding categorical variables
+2021-10-09	19:04:36	INFO	Education variable encoded
+2021-10-09	19:04:36	INFO	Education-num variable dropped
+2021-10-09	19:04:36	INFO	Label encoding of variables is done
+2021-10-09	20:03:43	INFO	Encoding categorical variables
+2021-10-09	20:03:44	INFO	Education variable encoded
+2021-10-09	20:03:44	INFO	Education-num variable dropped
+2021-10-09	20:03:44	INFO	Label encoding of variables is done

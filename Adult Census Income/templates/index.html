@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adult_income_census</title>
+</head>
+
+<body>
+
+    <div style="color:White">
+        <form action="{{ url_for('predict')}}" method="post">
+            <h2>Adult income Census Prediction</h2>
+            <h3>Age</h3>
+            <input id="age" name="Age" type="number">
+            <h3>Work_Class</h3><br><select name="Work_Class" id="workclass" required="required">
+                <option value="Private">Private</option>
+                <option value="Self-emp-not-inc">Self-emp-not-inc</option>
+                <option value="Self-emp-inc">Self-emp-inc</option>
+                <option value="Federal-gov">Federal-gov</option>
+                <option value="Local-gov">Local-gov</option>
+                <option value="State-gov">State-gov</option>
+                <option value="Without-pay">Without-pay</option>
+                <option value="Never-worked">Never-worked</option>
+        </select>
+            <h3>Final_Weight</h3><input id="fnlwgt" name="Final_Weight" required="required">
+            <h3>Education</h3><br><select name="Education" id="education" required="required">
+                <option value="Preschool">Preschool</option>
+                <option value="1st-4th">1st-4th</option>
+                <option value="5th-6th">5th-6th</option>
+                <option value="7th-8th">7th-8th</option>
+                <option value="9th">9th</option>
+                <option value="10th">10th</option>
+                <option value="11th">11th</option>
+                <option value="12th">12th</option>
+                <option value="HS-grad">HS-grad</option>
+                <option value="Prof-school">Prof-school</option>
+                <option value="Some-college">Some-college</option>
+                <option value="Assoc-acdm">Assoc-acdm</option>
+                <option value="Assoc-voc">Assoc-voc</option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="Masters">Masters</option>
+                <option value="Doctorate">Doctorate</option>
+
+
+            </select>
+            <h3>Marital_Status</h3><br><select name="Marital_Status" id="marital-status" required="required">
+                <option value="Married-civ-spouse">Married-civ-spouse</option>
+                <option value="Divorced">Divorced</option>
+                <option value="Never-married">Never-married</option>
+                <option value="Separated">Separated</option>
+                <option value="Widowed">Widowed</option>
+                <option value="Married-spouse-absent">Married-spouse-absent</option>
+                <option value="Married-AF-spouse">Married-AF-spouse</option>
+
+            </select>
+            <h3>Occupation</h3><br><select name="Occupation" id="occupation" required="required">
+                <option value="Tech-support">Tech-support</option>
+                <option value="Craft-repair">Craft-repair</option>
+                <option value="Other-service">Other-service</option>
+                <option value="Sales">Sales</option>
+                <option value="Exec-managerial">Exec-managerial</option>
+                <option value="Prof-specialty">Prof-specialty</option>
+                <option value="Handlers-cleaners">Handlers-cleaners</option>
+                <option value="Machine-op-inspct">Machine-op-inspct</option>
+                <option value="Adm-clerical">Adm-clerical</option>
+                <option value="Farming-fishing">Farming-fishing</option>
+                <option value="Transport-moving">Transport-moving</option>
+                <option value="Priv-house-serv">Priv-house-serv</option>
+                <option value="Protective-serv">Protective-serv</option>
+                <option value="Armed-Forces">Armed-Forces</option>
+                <option value="Diesel">Diesel</option>
+            </select>
+
+            <h3>Relationship</h3><br><select name="Relationship" id="relationship" required="required">
+                <option value="Wife">Wife</option>
+                <option value="Own-child">Own-child</option>
+                <option value="Husband">Husband</option>
+                <option value="Not-in-family">Not-in-family</option>
+                <option value="Other-relative">Other-relative</option>
+                <option value="Unmarried">Unmarried</option>
+            </select>
+
+            <h3>Race</h3><br><select name="Race" id="race" required="required">
+                <option value="White">White</option>
+                <option value="Asian-Pac-Islander">Asian-Pac-Islander</option>
+                <option value="Amer-Indian-Eskimo">Amer-Indian-Eskimo</option>
+                <option value="Other">Other</option>
+                <option value="Black">Black</option>
+            </select>
+
+            <h3>Sex</h3><br><select name="Sex" id="sex" required="required">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <h3>Capital_Gain</h3><br><input id="capital-gain" name="Capital_Gain" required="required">
+            <h3>Capital_Loss</h3><br><input id="capital-loss" name="Capital_Loss" required="required">
+            <h3>Hours_Per_Week</h3><br><input id="hours-per-week" name="Hours_Per_Week" required="required">
+
+            <h3>Country</h3><br><select name="Country" id="country" required="required">
+                <option value="United-States">United-States</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="England">England</option>
+                <option value="Puerto-Rico">Puerto-Rico</option>
+                <option value="Canada">Canada</option>
+                <option value="Germany">Germany</option>
+                <option value="Outlying-US(Guam-USVI-etc)">Outlying-US(Guam-USVI-etc)</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Greece">Greece</option>
+                <option value="South">South</option>
+                <option value="China">China</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Iran">Iran</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Italy">Italy</option>
+                <option value="Poland">Poland</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Ireland">Ireland</option>
+                <option value="France">France</option>
+                <option value="Dominican-Republic">Dominican-Republic</option>
+                <option value="Laos">Laos</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Haiti">Haiti</option>
+                <option value="Columbia">Columbia</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Scotland">Scotland</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Yugoslavia">Yugoslavia</option>
+                <option value="El-Salvador">El-Salvador</option>
+                <option value="Trinadad&Tobago,">Trinadad&Tobago,</option>
+                <option value="Peru">Peru</option>
+                <option value="Hong">Hong</option>
+                <option value="Holand-Netherlands">Holand-Netherlands</option>
+            </select>
+
+
+            <br><br><button id="sub" type="submit ">Adult_income will be</button>
+            <br>
+
+
+
+
+        </form>
+
+
+
+        <br><br><h3>{{ prediction_text }}</h3>
+    </div>
+
+
+
+
+    <style>
+        body {
+            background-color: lightslategray;
+            text-align: center;
+            padding: 0px;
+        }
+
+        #research {
+            font-size: 18px;
+            width: 100px;
+            height: 23px;
+            top: 23px;
+        }
+
+        #box {
+            border-radius: 60px;
+            border-color: 45px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(168, 131, 61);
+            font-size: medium;
+            position: absolute;
+            width: 700px;
+            bottom: 9%;
+            height: 850px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+
+        #fuel {
+            width: 83px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 20px;
+        }
+
+        #fuel:hover {
+            background-color: coral;
+        }
+
+        #research {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #research:hover {
+            background-color: coral;
+        }
+
+        #resea {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #resea:hover {
+            background-color: coral;
+        }
+
+        #sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #sub:hover {
+            background-color: darkcyan;
+        }
+
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</body>
+
+</html>
